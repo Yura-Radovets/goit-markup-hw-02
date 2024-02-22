@@ -8,7 +8,7 @@ body {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -19,7 +19,7 @@ body {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -65,6 +65,7 @@ body {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .main-page-section-title {
@@ -79,11 +80,17 @@ background-color: #2E2F42
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .main-page-button:hover {
     background-color: #404bbf;
-    color: #FFFFFF;
+}
+.main-page-button:focus {
+    background-color: #404bbf;
+
 }
 
 .main-page-title-achievement {
@@ -103,19 +110,30 @@ background-color: #2E2F42
         text-align: left;
 }
 
+.main-page-section-team {
+    background-color: #F4F4FD;
+}
+
 .main-page-title-team {
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.15;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.main-page-list-team {
+    background-color: #FFFFFF;
 }
 
 .main-page-title-team-name {
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.5;
+        line-height: 1.2;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .main-page-title-team-desc {
@@ -128,15 +146,17 @@ background-color: #2E2F42
 .main-page-title-portfolio {
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.5;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .main-page-title-porfolio-name {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
